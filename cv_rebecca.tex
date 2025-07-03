@@ -20,14 +20,14 @@
 
 % Replace this with a link to your CV if you like, or set it empty
 % (as in \def\footerlink{}) to remove the link in the footer:
-\def\footerlink{}
+\def\footerlink{https://rebeccalmartinez.github.io/personal_website/experience.html}
 
 % The following metadata will show up in the PDF properties
 \hypersetup{
   colorlinks = true,
   urlcolor = black,
   pdfauthor = {\name},
-  pdfkeywords = {environmental science, conservation, field research, undergraduate research, UCSB, data science},
+  pdfkeywords = {environmental science, field research, education, UCSB, mentorship},
   pdftitle = {\name: Curriculum Vitae},
   pdfsubject = {Curriculum Vitae},
   pdfpagemode = UseNone
@@ -44,10 +44,16 @@
 \markright{\name}
 \thispagestyle{empty}
 
-% Custom section fonts
-\usepackage{sectsty}
+% Custom section fonts (using sectsty pkg)
 \sectionfont{\rmfamily\mdseries\Large}
 \subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
 
 % Don't indent paragraphs.
 \setlength\parindent{0em}
@@ -70,11 +76,15 @@
    }
 }{\end{list}}
 
+
 \begin{document}
 
-% Place name at left
-{\LARGE \scshape \name}
-{\emph{curriculum vitae}}
+% Place name centered and bold
+\centerline{\huge \bf \name}
+\begin{center}
+  \emph{Curriculum Vitae}
+\end{center}
+
 
 \vspace{0.25in}
 
@@ -88,35 +98,176 @@ Santa Barbara, CA
   \begin{tabular}{ll}
     e-mail: & \href{mailto:rebecca_martinez@ucsb.edu}{\tt rebecca\_martinez@ucsb.edu} \\
             & \href{mailto:martinez.rl@hotmail.com}{\tt martinez.rl@hotmail.com} \\
-    github: & \href{https://github.com/RebeccaLMartinez}{\tt github.com/RebeccaLMartinez} \\
-website: & \href{https://rebeccalmartinez.github.io/personal_website/}{\url{https://rebeccalmartinez.github.io/personal_website/}}
+    website: & \href{https://rebeccalmartinez.github.io/personal_website/}{\url{https://rebeccalmartinez.github.io/personal_website/}}
 
   \end{tabular}
 \end{minipage}
 
-\vspace{0.2in}
 
+%-----------------------------------
+% Education
+%-----------------------------------
 \section*{Education}
 
+
 \begin{itemize}
+  \item B.S. Environmental Studies, University of California, Santa Barbara  
+  \emph{Expected 2026}
 
-  \item B.S. Environmental Studies, University of California, Santa Barbara \\
-  \textit{Expected 2026}
+  \item A.S. Biology, Allan Hancock College  
+  \emph{with honors, May 2024}
 
-  \item A.S. Biology \textit{with honors}, Allan Hancock College \\
-  \textit{May 2024}
+  \item A.A. Biology, Allan Hancock College  
+  \emph{with honors, May 2023}
 
-  \item A.A. Biology \textit{with honors}, Allan Hancock College \\
-  \textit{May 2023}
+  \item A.A. Mathematics and Science, Allan Hancock College  
+  \emph{with high honors, May 2021}
 
-  \item A.A. Mathematics and Science \textit{with high honors}, Allan Hancock College \\
-  \textit{May 2021}
-
-  \item Information Technology Fundamentals (IT Certificate), Allan Hancock College \\
-  \textit{May 2024}
-
+  \item IT Fundamentals Certificate, Allan Hancock College  
+  \emph{May 2024}
 \end{itemize}
 
+
+%-----------------------------------
+% Research Experience
+%-----------------------------------
+\section*{Research Experience}
+
+
+\begin{biblist}
+\item Peer Mentor, ERES Field Research Workshop, Santa Cruz Island  
+UCSB–Smithsonian Scholars Program (Summer 2025)  
+- Guided students in sensor deployment: camera traps and Audiomoth (bioacoustic recording device)  
+- Supported student learning in land navigation and orienteering, data collection, and FAIR data practices
+
+\item Undergraduate Researcher, 199RA  
+UC Santa Barbara – under Dr. Iris Holzer (Winter 2025–Present)  
+\emph{The Role of Mammalian Bioturbators in Soil Formation and Elemental Cycling: Comparing rock-derived N release across the Channel Islands and the Transverse Ranges using an undergraduate-led research framework}  
+- Collected and processed soil and rock samples  
+- Prepped samples via rock saw for N-release assays and isotope analysis  
+- Drafted literature review and developed learning resources  
+- Planning AGU Fall Meeting presentation
+
+\item Research Assistant, UCNRS Sedgwick Reserve (Spring 2025–Present)  
+\emph{Soil Carbon Stabilization Study}  
+- Assisted with pit digging, bulk density sampling, and soil auger collection  
+- Performed USDA soil profile descriptions: color, roots, pores, aggregates  
+- Applied safe sampling protocols and helped maintain positive morale on long field days
+
+\item Student Assistant, UCSB Office of Education Partnerships (Fall 2024–Present)  
+- Revised protocols for the Fog Harp project  
+- Collected and managed camera trap data for the Santa Cruz Island Skunk project  
+- Maintained inventory and provided peer mentorship and support
+
+\item Discussion Leader (Intern), UCSB–Smithsonian Data Bootcamp  
+Smithsonian Data Science Lab – Dr. Alexander White (Summer 2023)  
+- Facilitated data science instruction in R via RStudio/PositCloud as part of a Smithsonian Data Science Lab internship
+- Introduced biodiversity-focused datasets to undergraduates, emphasizing reproducible workflows and visual data communication
+
+\item Participant, Advanced Field Research and Data Science Training, STRI Panama  
+UCSB–Smithsonian Scholars Program (Summer 2023)  
+- Completed two-week field methods course and advanced data science training in RStudio/PositCloud  
+- Shadowed Smithsonian researchers to learn ecological field methods and ongoing research at STRI and participated in guided ecotourism
+- Developed an a priori question and completed a group research project: \textit{Comparison of Species Richness and Functional Richness on Barro Colorado Island and Pipeline Road in Panama}
+
+\item Participant, ERES Field Research Workshop, Santa Cruz Island  
+UCSB–Smithsonian Scholars Program (Summer 2023)
+\end{biblist}
+
+
+%-----------------------------------
+% Teaching & Mentorship Experience
+%-----------------------------------
+\section*{Teaching and Mentorship}
+
+\begin{biblist}
+
+\item Discussion Leader, UCSB–Smithsonian Data Bootcamp (Summer 2024, 2025)  
+- Delivered R programming lessons tailored to undergraduates new to data science
+- Emphasized collaborative learning, equitable access to coding resources, and open science principles
+
+
+\item Teaching Assistant, Human Anatomy Open Lab (2023–2024)  
+Allan Hancock College – Alicia Fox  
+- Managed Friday lab sessions: setup and breakdown  
+- Developed visual study guides and led office hours  
+- Provided support for human cadaver lab  
+\item Embedded Tutor (TA Support Role), Allan Hancock College (2020--2024)  
+- Created review materials and led exam prep sessions  
+- Held office hours and assisted with grading  
+- Supported courses: Botany (Wendy Hadley), Cellular Biology and Physiology (Ashley Wise), Introductory and General Chemistry (Dr. James Houlis), Human Anatomy (Dr. Len Miyahara), and Microbiology (online, Dr. Tim Doyle)
+
+\item Lead Tutor and Tutor, Allan Hancock College Academic Resource Center \& STEM Center (2019–2024)  
+- Delivered one-on-one and group tutoring in biology, chemistry, math, and general education  
+- Promoted to Lead Tutor in 2020; trained new tutors and hosted workshops on study skills and time management
+- Assisted in staff and faculty onboarding orientations.
+
+\end{biblist}
+
+%-----------------------------------
+% Leadership & Service
+%-----------------------------------
+\section*{Leadership and Service}
+
+\begin{biblist}
+\item Outreach, UCSB Student Veterans Association (SVA) and She Raised Her Hand (2024–)
+- Organized networking events to bring together veteran students and women veterans from both UCSB’s SVA and She Raised Her Hand network
+
+\item Science Outreach Volunteer, Allan Hancock College Life \& Physical Sciences Dept. (2022–2024)
+- Designed and ran hands-on science activities for local K–12 students  
+- Created educational materials and coordinated event logistics
+
+\item Student Representative, Allan Hancock College Hiring Committees (2023–2024)
+- Served as a student representative for full-time faculty and staff selection committees
+
+\item Student Representative, Allan Hancock College Title V Committee (2021–2023)
+- Represented student needs in planning academic support programs  
+- Worked with faculty lead and committee to improve and implement student support
+
+\item Vice President \& Community Service Chair, AGS Aquarius Honor Society (2019–2024)  
+- Organized multiple community service projects and fundraisers  
+- Created and implemented online service point tracking system
+
+\item United States Marine Corps (2005–2010)  
+- Completed specialized training in land navigation, survival skills, swim qualification, and CBRN defense.  
+- Developed leadership and operational skills transferable to academic research and fieldwork.
+\end{biblist}
+
+
+%--------------------------
+% Talks and Presentations
+%--------------------------
+\section*{Presentations}
+
+\begin{biblist}
+\item \textit{Learning from the ground up: Mammalian Bioturbators, Soil, \& Undergraduate Education.} UCSB Environmental Studies 55th Anniversary Symposium. Santa Barbara, CA, April 2025.
+  
+\item Student speaker, Allan Hancock Foundation Honors Gala. Santa Maria, CA, May 2024.
+
+\item \textit{Comparison of Species Richness \& Functional Richness Between Barro Colorado Island and Pipeline Road in Panama.} Cal Poly Summer Internship Research Symposium. San Luis Obispo, CA, August 2023.
+
+\item \textit{Comparison of Species Richness \& Functional Richness Between Barro Colorado Island and Pipeline Road in Panama.} UCSB Fall Undergraduate Research Showcase. Santa Barbara, CA, November 2023.
+\end{biblist}
+
+
+%-----------------------------------
+% Awards & Scholarships
+%-----------------------------------
+\section*{Awards and Scholarships}
+
+\begin{biblist}
+\item UCNRS Field Science Fellowship, 2025
+\item Wenger Scholarship, 2025
+\item Gene \& Susan Lucas Undergraduate Research Fund, 2025
+\item G.\ Allan Hancock Scholarship, 2024
+\item Allan Hancock MESA Scholarship, 2023
+\item Brander Single Parent Scholarship, 2022, 2023, 2024
+\item Joyce Dendo Veteran Scholarship (Inaugural), 2021
+\item Kathleen D.\ Loly Service Scholarship, 2021
+\item Joan Semelsberger Scholarship, 2021, 2022, 2023
+\item Virginia B.\ Martinez Memorial Scholarship, 2021
+\item AGS Aquarius Honor Society Leadership Award, 2021
+\end{biblist}
 
 %-----------------------------------
 % Programs & Affiliations
@@ -124,139 +275,27 @@ website: & \href{https://rebeccalmartinez.github.io/personal_website/}{\url{http
 \section*{Programs and Affiliations}
 
 \begin{itemize}
-  \item \textbf{Bren–Environmental Studies Fellows Program} \hfill 2025--2026 cohort
-  \item \textbf{Tau Sigma National Honor Society} \hfill since 2025
-  \item \textbf{American Geophysical Union (AGU)} Member \hfill since 2025
-  \item \textbf{Promise Scholars Program, UCSB} \hfill since 2024
-  \item \textbf{Letters \& Science Honors Program, UCSB} \hfill since 2024
-  \item \textbf{Student Veterans Association (SVA), UCSB} \hfill since 2024
-  \item \textbf{UCSB–Smithsonian Scholars Program} (ERES participant 2023; discussion leader/mentor 2024--2025) \hfill 2023--2025
-  \item \textbf{Alpha Gamma Sigma Honor Society (AGS)} Vice President, Community Service Chair \hfill 2019--2024
-  \item \textbf{ACTLA (Association of Colleges for Tutoring \& Learning Assistance)} Member \hfill since 2021
-  \item \textbf{Lompoc Veteran Advisory Committee (LVAC)} Member \hfill since 2017
+\item Bren–Environmental Studies Fellows Program, 2025–2026 cohort
+\item Tau Sigma National Honor Society, Member since 2025
+\item American Geophysical Union (AGU), Member since 2025
+\item UCSB Promise Scholars Program, Member since 2024
+\item UCSB Letters \& Science Honors Program, Member since 2024
+\item UCSB Student Veterans Association (SVA), Member since 2024
+\item UCSB–Smithsonian Scholars Program (ERES participant 2023; discussion leader/mentor 2024–2025), Member since 2023
+\item Alpha Gamma Sigma Honor Society (AGS), Vice President and Community Service Chair, Member since 2019
+\item Association of Colleges for Tutoring \& Learning Assistance (ACTLA), Member since 2021
+\item Lompoc Veteran Advisory Committee (LVAC), Member since 2017
 \end{itemize}
 
-%-----------------------------------
-% Teaching & Tutoring Experience
-%-----------------------------------
-\section*{Teaching and Tutoring Experience}
+ 
+\bigskip
 
-\begin{itemize}
-  \item \textbf{Teaching Assistant, Human Anatomy Open Lab} \hfill 2023--2024 \\
-    Allan Hancock College, under Alicia Fox  
-    \begin{itemize}
-      \item Managed Friday lab sessions: setup/breakdown, cadaver‐lab support  
-      \item Developed visual study guides and led office hours
-    \end{itemize}
-
-  \item \textbf{Embedded Tutor (TA Support Role)} \hfill 2020--2024 \\
-    Allan Hancock College  
-    \begin{itemize}
-      \item Botany (Wendy Hadley), Microbiology (online, Dr. Tim Doyle), Human Anatomy (Dr. Len Miyahara), Introductory Chemistry, Organic Chemistry, General Chemistry (Dr. James Houlis), and Physiology and Cellular Biology (Ashley Wise). 
-      \item Facilitated learning, created materials, led study sessions, held office hours, occasional grading.
-    \end{itemize}
-
-  \item \textbf{Lead Tutor and Tutor} \hfill 2019--2024 \\
-    Allan Hancock College, Academic Resource Center \& MESA/STEM Center  
-    \begin{itemize}
-      \item Delivered one‐on‐one and group tutoring in biology, chemistry, math, and general education  
-      \item Promoted to Lead Tutor (2020); trained new tutors; hosted workshops on study skills and time management.
-    \end{itemize}
-\end{itemize}
-
-%-----------------------------------
-% Research Experience
-%-----------------------------------
-\section*{Research Experience}
-
-\begin{itemize}
-  \item \textbf{Undergraduate Research Assistant, 199RA} \hfill Winter 2025--Present \\
-    UCSB, under Dr. Iris Holzer  
-   Project: \emph{The Role of Mammalian Bioturbators in Soil Formation and Elemental Cycling: Comparing rock-derived N release across the Channel Islands and the Transverse Ranges using an undergraduate-led research framework}  
-    \begin{itemize}
-      \item Field sampling (soil, rock); pit digging; bulk density measurements  
-      \item Prepped rock samples via rock saw for N‐release assays  
-      \item Conducted literature reviews and drafted funding proposals for undergrad internship  
-      \item Planning AGU Fall Meeting presentation
-    \end{itemize}
-    
-  \item \textbf{Research Assistant, Soil Carbon Stabilization Study} \hfill Spring 2025--Present \\
-    UCSB Island Ecology Field Station  
-    \begin{itemize}
-      \item Assisted pit digging, bulk density sampling, soil auger collection  
-      \item Performed USDA soil profile descriptions: color, roots, pores, aggregates  
-      \item Applied safe sampling protocols and maintained positive morale on long field days
-    \end{itemize}
-    
- \item \textbf{Student Assistant, Office of Education Partnerships} \hfill Fall 2024--Present \\
-  University of California, Santa Barbara \\
-    \begin{itemize}
-      \item Revised protocols for Fog Harp project
-      \item Maintenance and collect cameratrap data for Santa Cruz Island Skunk project
-      \item Managed inventory and provided peer support  
-    \end{itemize}
-
-  \item \textbf{Peer Mentor, ERES Field Research Workshop, Santa Cruz Island} \hfill Summer 2024--2025 \\
-    UCSB–Smithsonian Scholars Program  
-    \begin{itemize}
-      \item Guided students in camera‐trap/Audiomoth deployment, land navigation, FAIR data practices
-      \item 
-    \end{itemize}
-    
-  \item \textbf{Participant, ERES Field Research Workshop, Santa Cruz Island} \hfill Summer 2023 \\
-    UCSB–Smithsonian Scholars Program  
-    \begin{itemize}
-
-  \item \textbf{Participant, Advanced Field Research and Data Science Training, STRI Panama} \hfill Summer 2023 \\
-    UCSB–Smithsonian Scholars Program   
-    \begin{itemize}
-      \item Completed field methods course and advanced data science training, deployed audiomoths and cameratraps to practice creating an a priori question and completing a mini research project as a team: Comparison of Species Richness and Functional Richness on Barro Colorado Island and Pipeline Road in Panama.
-    \end{itemize}
-\end{itemize}
-
-%-----------------------------------
-% Service & Leadership
-%-----------------------------------
-\section*{Service and Leadership}
-
-\begin{itemize}
-  \item \textbf{Student Representative, Title V Committee} \hfill 2021--2023 \\
-    Allan Hancock College  
-    \item Represented student needs in planning academic support programs
-
-  \item \textbf{Hiring Committees (Student Rep.)} \hfill 2023--2024 \\
-    Allan Hancock College  
-    \item Contributed to faculty and staff selection processes
-
-  \item \textbf{Vice President \& Community Service Chair, AGS Honor Society} \hfill 2019--2024 \\
-    Allan Hancock College  
-    \item Organized service projects and led state‐level initiatives
-
-  \item \textbf{Outreach Volunteer, Life \& Physical Sciences Dept.} \hfill 2022--2024 \\
-    Allan Hancock College  
-    \begin{itemize}
-      \item Designed and ran hands‐on science activities for local K–12  
-      \item Created educational materials and coordinated event logistics
-    \end{itemize}
-\end{itemize}
-
-%-----------------------------------
-% Awards & Scholarships
-%-----------------------------------
-\section*{Awards and Scholarships}
-
-\begin{itemize}
-  \item UCNRS Field Science Fellowship, UCSB \hfill 2025
-  \item Wenger Scholarship, UCSB \hfill 2025
-  \item Gene \& Susan Lucas Undergraduate Research Fund, UCSB \hfill 2025
-  \item G.\ Allan Hancock Scholarship \hfill 2024
-  \item Allan Hancock MESA Scholarship \hfill 2023
-  \item Brander Single Parent Scholarship \hfill 2022--2024
-  \item Joyce Dendo Veteran Scholarship (Inaugural) \hfill 2021
-  \item Kathleen D.\ Loly Service Scholarship \hfill 2021
-  \item Joan Semelsberger Scholarship \hfill 2021--2023
-  \item Virginia B.\ Martinez Memorial Scholarship \hfill 2021
-  \item AGS Aquarius Honor Society Leadership Award \hfill 2021
-\end{itemize}
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
 
 \end{document}
