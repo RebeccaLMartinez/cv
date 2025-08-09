@@ -1,0 +1,300 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{sectsty}
+
+% Set your name here
+\def\name{Rebecca L. Martinez}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{https://rebeccalmartinez.github.io/personal_website/experience.html}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {environmental science, field research, education, UCSB, mentorship},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  margin=0.75in
+}
+
+
+\newcommand{\sectionheader}[1]{%
+  \noindent\textbf{\Large #1}\\[-1.5ex]
+  \noindent\rule{\linewidth}{0.4pt}\\[-1.5ex]
+}
+
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts (using sectsty pkg)
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\newenvironment{biblist}{%
+   \begin{list}{}{%
+     \setlength{\labelwidth}{0pt}%
+     \setlength{\labelsep}{1em}%
+     \setlength{\leftmargin}{2em}%
+     \setlength{\itemindent}{-1em}%
+   }
+}{\end{list}}
+
+
+\begin{document}
+
+% Place name centered and bold
+\begin{center}
+  {\huge \textbf{Rebecca L. Martinez}}\\[0.2cm]
+  Undergraduate Researcher and Student Assistant\\
+  Environmental Studies Program • University of California, Santa Barbara\\
+  Santa Barbara, CA\\[0.2cm]
+  \href{mailto:rebecca_martinez@ucsb.edu}{rebecca\_martinez@ucsb.edu} \quad • \quad
+  \href{mailto:martinez.rl@hotmail.com}{martinez.rl@hotmail.com} \quad • \quad
+  \href{https://rebeccalmartinez.github.io/personal_website/}{https://rebeccalmartinez.github.io/personal_website/}
+\end{center}
+
+
+\vspace{0.1in}
+
+%-----------------------------------
+% Education
+%-----------------------------------
+
+\sectionheader{Education}
+
+
+\begin{itemize}
+  \item B.S. Environmental Studies, University of California, Santa Barbara  
+  \emph{Expected June 2026}
+
+  \item A.S. Biology, Allan Hancock College  
+  \emph{with honors, May 2024}
+
+  \item A.A. Biology, Allan Hancock College  
+  \emph{with honors, December 2023}
+
+  \item A.A. Mathematics and Science, Allan Hancock College  
+  \emph{with high honors, May 2021}
+
+  \item IT Fundamentals Certificate, Allan Hancock College  
+  \emph{May 2024}
+\end{itemize}
+
+
+%-----------------------------------
+% Research Experience
+%-----------------------------------
+\item \textbf{Undergraduate Researcher, UC Santa Barbara – under Dr. Iris Holzer} \hfill January 2025–Present \\
+\emph{Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation}
+
+\begin{itemize}
+  \item Collected and prepared soil and rock samples for nitrogen and isotope analysis
+  \item Trained in rock saw and shatterbox use; prepared powdered samples in foil capsules for lab testing
+  \item Reviewed scientific literature and helped develop student learning materials
+\end{itemize}
+
+
+\item \textbf{Research Assistant} \\ 
+UC Davis – UCNRS Sedgwick Reserve Soil Carbon Project (March 2025–Present) \\
+\emph{Soil Carbon Stabilization Study}
+\begin{itemize}
+  \item Assisted with pit digging, bulk density sampling, and soil auger collection
+  \item Performed USDA soil profile descriptions: color, roots, pores, aggregates
+  \item Applied safe sampling protocols and helped maintain positive morale on long field days
+\end{itemize}
+
+\item \textbf{Student Assistant} \\
+UCSB Office of Education Partnerships (September 2024–Present)  
+\begin{itemize}
+  \item Revised protocols for fog water collection devive, 'Fog Harp', project
+  \item Collected and managed camera trap data for the Santa Cruz Island Skunk project
+  \item Maintained inventory and provided peer mentorship and support
+\end{itemize}
+
+\item \textbf{Peer Mentor}, UCSB–Smithsonian Scholars Program (June–September 2025)   
+\begin{itemize}
+  \item Mentored students during the ERES Field Workshop at Santa Cruz Island Reserve (UCNRS)
+  \item Trained students on field sensors including camera traps, Audiomoths, and GPS
+  \item Supported ecological data collection using FAIR data practices
+\end{itemize}
+
+\item \textbf{Discussion Leader}, Smithsonian Data Science Lab \\
+UCSB–Smithsonian Scholars Program (June–September 2024, 2025) 
+\begin{itemize}
+  \item Led data science instruction in R using RStudio and PositCloud
+  \item Emphasized reproducible workflows and data visualization techniques
+  \item Supported collaborative learning and student engagement
+\end{itemize}
+
+\item \textbf{Participant}, UCSB–Smithsonian Scholars Program (June–September 2023)  
+\begin{itemize}
+  \item Completed advanced field methods and data science training at Smithsonian Tropical Research Institute (STRI), Panama, including RStudio/PositCloud instruction
+  \item Shadowed researchers to learn ecological field techniques and ongoing projects at STRI; participated in guided ecotourism
+  \item Developed an a priori research question and collaborated on a group project: \textit{Comparison of Species Richness and Functional Richness on Barro Colorado Island and Pipeline Road in Panama}
+  \item Attended ERES Field Research Workshop at Santa Cruz Island Reserve (UCNRS), focusing on field sensor use and ecological data collection
+\end{itemize}
+
+
+%-----------------------------------
+% Teaching and Mentorship Experience
+\sectionheader{Teaching and Mentorship}
+
+\begin{biblist}
+
+\item \textbf{Discussion Leader, UCSB–Smithsonian Data Bootcamp (Summer 2024, 2025)}\\
+Guided undergraduates in using RStudio/PositCloud for data manipulation and visualization, emphasizing collaborative learning, equitable access, and open science principles.
+
+\item \textbf{Teaching Assistant}, Human Anatomy Open Lab, Allan Hancock College (May 2023 – May 2024)\\
+Instructor: Alicia Fox\\
+Managed Friday lab sessions, including setup and breakdown; developed visual study guides, led office hours, and supported human cadaver lab activities.
+
+\item \textbf{Embedded Tutor}, Allan Hancock College (2020–2024)\\
+Collaborated with instructors to support student success through review sessions, office hours, grading assistance, and tailored study materials.\\
+Courses supported: Botany, Chemistry (Introductory and General), Human Anatomy and Physiology, Cellular Biology, and Microbiology (online).
+
+\item \textbf{Lead Tutor and Tutor}, Allan Hancock College Academic Resource Center \& STEM Center (2019–2024)\\
+Delivered one-on-one and group tutoring in biology, chemistry, math, and general education. Promoted to Lead Tutor in 2020; trained new tutors and hosted workshops on study skills and time management. Supported staff and faculty onboarding orientations.
+
+\end{biblist}
+
+
+%-----------------------------------
+% Leadership and Service
+%-----------------------------------
+\sectionheader{Leadership and Service}
+
+\begin{biblist}
+
+\item \textbf{Outreach Volunteer}, UCSB Veteran Support Center and She Raised Her Hand (2024--Present)\\
+Assisted with organizing networking events to connect veteran students and women veterans within UCSB’s communities.
+
+\item \textbf{Science Outreach Volunteer}, Allan Hancock College Life \& Physical Sciences Department (2022--2024)\\
+Designed and facilitated hands-on science activities for local K–12 students; created educational materials and coordinated event logistics.
+
+\item \textbf{Student Representative}, Allan Hancock College Hiring Committees (2023--2024)\\
+Represented student perspectives during faculty and staff hiring processes.
+
+\item \textbf{Student Representative}, Allan Hancock College Title V Committee (2021--2023)\\
+Advocated for student needs in academic program planning; collaborated with faculty and committee members to improve student support services.
+
+\item \textbf{Vice President and Community Service Chair}, AGS Aquarius Honor Society (2019--2021)\\
+Organized community service projects and fundraisers; developed and maintained an online system for tracking service points.
+
+\item \textbf{United States Marine Corps}, (2005--2010)\\
+Completed specialized training in land navigation, survival skills, swim qualification, and CBRN defense; developed leadership and operational skills applicable to research and fieldwork.
+
+
+\end{biblist}
+
+
+%-----------------------------------
+% Presentations
+%-----------------------------------
+\sectionheader{Presentations}
+
+\begin{biblist}
+
+\item Abstract submitted for presentation at AGU Fall Meeting, December 2025: \textit{Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation}.
+
+\item \textit{Learning from the Ground Up: Mammalian Bioturbators, Soil, \& Undergraduate Education}, UCSB Environmental Studies 55th Anniversary Symposium, Santa Barbara, CA, April 2025.
+
+\item Student Speaker, Allan Hancock Foundation Honors Gala, Santa Maria, CA, May 2024.
+
+\item \textit{Comparison of Species Richness \& Functional Richness Between Barro Colorado Island and Pipeline Road in Panama}, Cal Poly Summer Internship Research Symposium, San Luis Obispo, CA, August 2023.
+
+\item \textit{Comparison of Species Richness \& Functional Richness Between Barro Colorado Island and Pipeline Road in Panama}, UCSB Fall Undergraduate Research Showcase, Santa Barbara, CA, November 2023.
+
+\end{biblist}
+
+
+%-----------------------------------
+% Awards & Scholarships
+%-----------------------------------
+\sectionheader{Awards and Scholarships}
+
+\begin{biblist}
+\item UCNRS Field Science Fellowship, 2025
+\item Wenger Scholarship, 2025
+\item Gene \& Susan Lucas Undergraduate Research Fund, 2025
+\item G.\ Allan Hancock Scholarship, 2024
+\item Allan Hancock MESA Scholarship, 2023
+\item Brander Single Parent Scholarship, 2022, 2023, 2024
+\item Joyce Dendo Veteran Scholarship (Inaugural), 2021
+\item Kathleen D.\ Loly Service Scholarship, 2021
+\item Joan Semelsberger Scholarship, 2021, 2022, 2023
+\item Virginia B.\ Martinez Memorial Scholarship, 2021
+\item AGS Aquarius Honor Society Leadership Award, 2021
+\end{biblist}
+
+%-----------------------------------
+% Programs & Affiliations
+%-----------------------------------
+\sectionheader{Programs and Affiliations}
+
+\begin{itemize}
+\item Bren–Environmental Studies Fellows Program, 2025–2026 cohort
+\item Tau Sigma National Honor Society, Member since 2025
+\item American Geophysical Union (AGU), Member since 2025
+\item UCSB Promise Scholars Program, Member since 2024
+\item UCSB Letters \& Science Honors Program, Member since 2024
+\item UCSB Student Veterans Association (SVA), Member since 2024
+\item UCSB–Smithsonian Scholars Program (ERES participant 2023; discussion leader/mentor 2024–2025), Member since 2023
+\item Alpha Gamma Sigma Honor Society, (Vice President 2019-2021 and Community Service Chair 2022-2023), Member since 2019
+\item Association of Colleges for Tutoring \& Learning Assistance (ACTLA), Member since 2021
+\item Lompoc Veteran Advisory Committee (LVAC), Member since 2017
+\end{itemize}
+
+ 
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
