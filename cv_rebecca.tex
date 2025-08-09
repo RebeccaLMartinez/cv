@@ -26,7 +26,7 @@
 
 % Replace this with a link to your CV if you like, or set it empty
 % (as in \def\footerlink{}) to remove the link in the footer:
-\def\footerlink{https://rebeccalmartinez.github.io/personal_website/experience.html}
+\def\footerlink{https://rebeccalmartinez.github.io/personal\_website/}
 
 % PDF metadata
 \hypersetup{
@@ -46,19 +46,19 @@
   bottom=0.5in
 }
 
-% Section header style
+% Section header style: clean line underneath
 \newcommand{\sectionheader}[1]{%
-  \noindent\textbf{\large #1}\\[-1ex]
-  \noindent\rule{\linewidth}{0.4pt}\\[-1ex]
+  \noindent\textbf{\large #1} \\[-1ex]
+  \noindent\rule{\linewidth}{0.4pt}\\[0.8ex]
 }
 
 % Customize page headers
 \pagestyle{myheadings}
-\markright{\name}
+\markright{\footnotesize \name\hspace{1em}\footnotesize}
 \thispagestyle{empty}
 
 % Section fonts
-\sectionfont{\rmfamily\mdseries\large}
+\sectionfont{\rmfamily\mdseries\normalsize}
 \subsectionfont{\rmfamily\mdseries\itshape\normalsize}
 
 % No paragraph indent
@@ -88,9 +88,9 @@
 % Header with name and contact info
 %===========================
 \begin{center}
-  {\Large\textbf{Rebecca L. Martinez}}\\[0.1cm]
-   Undergraduate Researcher \textbar\ Student Assistant\\
-  Environmental Studies Program \textbar\ University of California, Santa Barbara\\
+  {\Large\textbf{Rebecca L. Martinez}}\\[0.15em]
+   Undergraduate Researcher \textbar\ Student Assistant\\[0.2em]
+  Environmental Studies Program \textbar\ University of California, Santa Barbara\\[0.15em]
   \href{mailto:rebecca_martinez@ucsb.edu}{rebecca\_martinez@ucsb.edu} \textbar\
   \href{mailto:martinez.rl@hotmail.com}{martinez.rl@hotmail.com}
 \end{center}
@@ -98,38 +98,26 @@
 
 %===========================
 % Education Section
-%===========================
 \sectionheader{Education}
-
 \cvitem{\textbf{B.S. in Environmental Studies}, University of California, Santa Barbara}{Expected 2026}
-
-\cvitem{\textbf{A.S. in Biology}, Allan Hancock College}{Spring 2024}
-\cvitem{\emph{With honors}}{}
-\cvitem{\textbf{A.A. in Biology}, Allan Hancock College}{Winter 2023}
-\cvitem{\emph{With honors}}{}
-\cvitem{\textbf{A.A. in Mathematics and Science}, Allan Hancock College}{Spring 2021}
-\cvitem{\emph{With high honors}}{}
+\cvitem{\textbf{A.S. in Biology}, Allan Hancock College \emph{(With honors)}}{Spring 2024}
+\cvitem{\textbf{A.A. in Biology}, Allan Hancock College \emph{(With honors)}}{Winter 2023}
+\cvitem{\textbf{A.A. in Mathematics and Science}, Allan Hancock College \emph{(With high honors)}}{Spring 2021}
 \cvitem{\textbf{IT Fundamentals Certificate}, Allan Hancock College}{Spring 2024}
-
 %===========================
 % Research Experience Section
 %===========================
 \sectionheader{Research Experience}
-
 \cvitem{\textbf{Undergraduate Researcher}, UC Santa Barbara}{Winter 2025–Present}
-\cvitem{\emph{Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation}\\
+\cvitem{\emph{Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation}
 Under Dr. Iris Holzer’s guidance, collected and prepared rock samples using rock saw and shatterbox. Prepared powdered samples in foil capsules for isotope analysis.}{}
-
 \cvitem{\textbf{Research Assistant}, UC Davis Soil Carbon Project}{Spring 2025–Present}
-\cvitem{\emph{Soil Carbon Stabilization Study}\\
+\cvitem{\emph{Soil Carbon Stabilization Study}
 Assisted with pit digging, bulk density sampling, and soil auger collection at UCNRS Sedgwick Reserve. Performed USDA soil profile descriptions and applied safe sampling protocols while supporting team morale.}{}
-
 \cvitem{\textbf{Student Assistant}, UCSB Office of Education Partnerships}{Fall 2024–Present}
 \cvitem{Collected data, maintained field sites, repaired equipment, updated protocols, and supported project logistics to improve research operations.}{}
-
 \cvitem{\textbf{Peer Mentor}, UCSB–Smithsonian Scholars Program}{Summer 2024, 2025}
 \cvitem{Mentored students during a field workshop at Santa Cruz Island Reserve; trained them on field sensors including camera traps, Audiomoths, and GPS; supported ecological data collection using FAIR data practices.}{}
-
 \cvitem{\textbf{Participant}, UCSB–Smithsonian Scholars Program}{Summer 2023}
 \cvitem{Completed advanced field methods and data science training at UCNRS Santa Cruz Island Reserve and Smithsonian Tropical Research Institute (STRI), Panama, including RStudio/PositCloud instruction.}{}
 
@@ -137,12 +125,10 @@ Assisted with pit digging, bulk density sampling, and soil auger collection at U
 % Teaching and Mentorship Section
 %===========================
 \sectionheader{Teaching and Mentorship}
-
 \cvitem{\textbf{Discussion Leader}, UCSB–Smithsonian ERES Program}{Summer 2024, 2025}
-\cvitem{Guided undergraduates in using RStudio/PositCloud for data manipulation and visualization, emphasizing collaborative learning, equitable access, and open science principles.}{}\\
+\cvitem{Guided undergraduates in using RStudio/PositCloud for data manipulation and visualization, emphasizing collaborative learning, equitable access, and open science principles.}{}[0.3em]
 \cvitem{\textbf{Teaching Assistant}, Allan Hancock College Human Anatomy Open Lab}{2023–2024}
-\cvitem{Managed Friday lab sessions, including setup and breakdown; developed visual study guides, led office hours, and supported human cadaver lab activities.}{}
-
+\cvitem{Managed Friday lab sessions, including setup and breakdown; developed visual study guides, led office hours, and supported human cadaver lab activities.}{}[0.3em]
 \cvitem{\textbf{Tutor}, Academic Resource Center \& STEM Center, Allan Hancock College}{2019–2024}
 \cvitem{Provided one-on-one and group tutoring in biology, chemistry, math, and general education.}{}
 \cvitem{\hspace{1em}\textbf{Lead Tutor}; trained new tutors, led workshops on study skills and time management, and supported onboarding of staff and faculty.}{2020–2024}
@@ -152,23 +138,17 @@ Assisted with pit digging, bulk density sampling, and soil auger collection at U
 % Leadership and Service Section
 %===========================
 \sectionheader{Leadership and Service}
-
 \cvitem{\textbf{Outreach Volunteer}, UCSB Veteran Support Center}{2024–Present}
 \cvitem{Organized networking events to connect veteran students and women veterans within UCSB’s communities.}{}
-
 \cvitem{\textbf{Science Outreach Volunteer}, Allan Hancock College Life \& Physical Sciences Department}{2022–2024}
 \cvitem{Designed and facilitated hands-on science activities for local K–12 students; created educational materials and coordinated event logistics.}{}
-
 \cvitem{\textbf{Student Representative}, Allan Hancock College}{2021–2023}
 \cvitem{Served as a student representative for faculty and staff hiring committees and Title V Committee to advocate for student needs.}{}
-
 \cvitem{\textbf{Permanent Member}, Alpha Gamma Sigma Aquarius Honor Society, Allan Hancock College}{2019–Present}
 \cvitem{\hspace{1em}\textbf{Vice President}; Organized meetings and contributed to executive decisions.}{2020–2021}
 \cvitem{\hspace{1em}\textbf{Community Service Chair}; Led service projects, fundraisers, and developed an online tracking system.}{2022–2023}
-
 \cvitem{\textbf{Key Volunteer}, Santa Barbara County Toys for Tots}{2018–Present}
 \cvitem{Coordinated donation efforts and distributed toys to children during holiday seasons.}{}
-
 \cvitem{\textbf{United States Marine Corps}}{2005–2010}
 \cvitem{Completed training in land navigation, survival skills, swim qualification, and CBRN defense; developed leadership and operational skills applicable to research and fieldwork.}{}
 
@@ -176,22 +156,16 @@ Assisted with pit digging, bulk density sampling, and soil auger collection at U
 % Presentations Section
 %===========================
 \sectionheader{Presentations}
-
 \cvitem{Abstract submitted for AGU Fall Meeting: \textit{Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation}, New Orleans, LA.}{December 2025}
-
 \cvitem{\textit{Learning from the Ground Up: Mammalian Bioturbators, Soil, \& Undergraduate Education}, UCSB Environmental Studies 55th Anniversary, Santa Barbara, CA.}{April 2025}
-
 \cvitem{\textit{Guest Speaker}, Allan Hancock Foundation Honors Gala, Santa Maria, CA}{May 2024}
-
 \cvitem{\textit{Comparison of Species Richness \& Functional Richness Between Barro Colorado Island and Pipeline Road in Panama}, Cal Poly Summer Internship Research Symposium, San Luis Obispo, CA.}{August 2023}
-
 \cvitem{\textit{Comparison of Species Richness \& Functional Richness Between Barro Colorado Island and Pipeline Road in Panama}, UCSB Fall Undergraduate Research Showcase, Santa Barbara, CA.}{November 2023}
 
 %===========================
 % Awards and Scholarships Section
 %===========================
 \sectionheader{Awards and Scholarships}
-
 \cvitem{UCNRS Field Science Fellowship}{2025}  
 \cvitem{Wenger Scholarship}{2025}  
 \cvitem{Gene \& Susan Lucas Undergraduate Research Fund}{2025}  
@@ -202,13 +176,12 @@ Assisted with pit digging, bulk density sampling, and soil auger collection at U
 \cvitem{Kathleen D. Loly Service Scholarship}{2021}  
 \cvitem{Joan Semelsberger Scholarship}{2021, 2022, 2023}  
 \cvitem{Virginia B. Martinez Memorial Scholarship}{2021}  
-\cvitem{AGS Aquarius Honor Society Leadership Award}{2021}  
+\cvitem{AGS Aquarius Honor Society Leadership Award}{2021} 
 
 %===========================
 % Programs and Affiliations Section
 %===========================
 \sectionheader{Programs and Affiliations}
-
 \cvitem{Bren–Environmental Studies Fellows Program}{2025–Present}  
 \cvitem{Tau Sigma National Honor Society}{2025–Present}  
 \cvitem{American Geophysical Union (AGU)}{2025–Present}  
@@ -227,7 +200,7 @@ Assisted with pit digging, bulk density sampling, and soil auger collection at U
 \begin{center}
   \begin{footnotesize}
     Last updated: \today \\
-    \href{\footerlink}{\texttt{\footerlink}}
+    \href{\footerlink}{\url{\footerlink}}
   \end{footnotesize}
 \end{center}
 
