@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.5)  8 AUG 2025 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.5)  20 AUG 2025 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,7 +259,7 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
-
+ (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd)
 
 [1
 
@@ -267,9 +267,9 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 203.
+(Font)              <8> on input line 211.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 203.
+(Font)              <6> on input line 211.
 
 
 [3] (./cv_rebecca.aux)
@@ -281,15 +281,15 @@ Package rerunfilecheck Info: File `cv_rebecca.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8657 strings out of 469782
- 136015 string characters out of 5480621
+ 8690 strings out of 469782
+ 136526 string characters out of 5480621
  570451 words of memory out of 5000000
- 36962 multiletter control sequences out of 15000+600000
- 641613 words of font info for 62 fonts, out of 8000000 for 9000
+ 36991 multiletter control sequences out of 15000+600000
+ 641926 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,9n,79p,289b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv_rebecca.pdf (3 pages, 52830 bytes).
+Output written on cv_rebecca.pdf (3 pages, 53589 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
