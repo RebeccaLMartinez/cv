@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.5)  20 AUG 2025 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.14)  19 NOV 2025 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv_rebecca.tex
 (./cv_rebecca.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
 (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -58,7 +58,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count283
 ) (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count284
 ) (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
@@ -156,7 +156,7 @@ LaTeX Warning: Command \underline  has changed.
 ) (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
  (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen161
 \ar@mcellbox=\box53
 \extrarowheight=\dimen162
@@ -181,7 +181,7 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 85
  (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 ) (./cv_rebecca.aux)
 \openout1 = `cv_rebecca.aux'.
@@ -211,7 +211,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ) (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 85.
  (./cv_rebecca.out) (./cv_rebecca.out)
@@ -259,37 +259,31 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
- (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd)
+ (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1
 
-[1
-
-{c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-
-[2]
+{c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 211.
+(Font)              <8> on input line 213.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 211.
-
-
-[3] (./cv_rebecca.aux)
+(Font)              <6> on input line 213.
+ [3] (./cv_rebecca.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-07-20>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
  ***********
 Package rerunfilecheck Info: File `cv_rebecca.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8690 strings out of 469782
- 136526 string characters out of 5480621
- 570451 words of memory out of 5000000
- 36991 multiletter control sequences out of 15000+600000
- 641926 words of font info for 63 fonts, out of 8000000 for 9000
+ 8695 strings out of 469519
+ 136643 string characters out of 5468255
+ 573498 words of memory out of 5000000
+ 37259 multiletter control sequences out of 15000+600000
+ 642822 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,9n,79p,289b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,301b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv_rebecca.pdf (3 pages, 53589 bytes).
+Output written on cv_rebecca.pdf (3 pages, 53739 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
