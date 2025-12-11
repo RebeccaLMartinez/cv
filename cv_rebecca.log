@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.14)  25 NOV 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.5)  10 DEC 2025 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv_rebecca.tex
 (./cv_rebecca.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
 (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -263,27 +263,27 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 
 {c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 217.
+(Font)              <8> on input line 216.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 217.
+(Font)              <6> on input line 216.
  [3] (./cv_rebecca.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
  ***********
 Package rerunfilecheck Info: File `cv_rebecca.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  8695 strings out of 469519
- 136643 string characters out of 5468255
- 575498 words of memory out of 5000000
+ 136643 string characters out of 5468256
+ 574495 words of memory out of 5000000
  37259 multiletter control sequences out of 15000+600000
  642822 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,9n,79p,301b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv_rebecca.pdf (3 pages, 54026 bytes).
+Output written on cv_rebecca.pdf (3 pages, 53858 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
