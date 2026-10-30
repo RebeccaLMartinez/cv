@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.28)  25 OCT 2026 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.28)  30 OCT 2026 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -259,13 +259,26 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
- (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1
+ (c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1phv.fd)
+! Misplaced alignment tab character &.
+<argument> \large Research &
+                             Field Experience
+l.137 \sectionheader{Research & Field Experience}
+                                                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[1
 
 {c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 243.
+(Font)              <8> on input line 247.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 243.
+(Font)              <6> on input line 247.
  [4] (./cv_rebecca.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -281,9 +294,9 @@ Here is how much of TeX's memory you used:
  37499 multiletter control sequences out of 15000+600000
  642822 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,9n,79p,473b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,392b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/th3b3/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on cv_rebecca.pdf (4 pages, 56288 bytes).
+Output written on cv_rebecca.pdf (4 pages, 56936 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
